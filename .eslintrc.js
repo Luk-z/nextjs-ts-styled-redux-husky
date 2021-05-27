@@ -31,6 +31,7 @@ module.exports = {
     'react/prop-types': 'off',
     'no-console': 'error',
     semi: ['error', 'never'],
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
   settings: {
     react: {

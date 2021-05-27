@@ -46,7 +46,12 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --max-warnings=0",
-      "prettier --check",
+      "prettier --check"
+    ],
+    "**/*.ts": [
+      "tsc-files --noEmit"
+    ],
+    "**/*.tsx": [
       "tsc-files --noEmit"
     ]
   }

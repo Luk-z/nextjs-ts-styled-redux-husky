@@ -1,10 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import fetch from '../../../../fetch'
 
-export default async (
-  _req: NextApiRequest,
-  res: NextApiResponse,
-): Promise<void> => {
+export default async (_req: NextApiRequest, res: NextApiResponse) => {
   const url = 'https://api.github.com/emojis'
 
   const headers = {

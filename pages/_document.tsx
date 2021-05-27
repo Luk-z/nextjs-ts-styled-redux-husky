@@ -7,10 +7,8 @@ import Document, {
 } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
-type TGetInitialProps = ReturnType<typeof Document.getInitialProps>
-
 export default class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext): TGetInitialProps {
+  static async getInitialProps(ctx: DocumentContext) {
     const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
 
@@ -35,7 +33,7 @@ export default class MyDocument extends Document {
     }
   }
 
-  render(): JSX.Element {
+  render() {
     return (
       <Html lang="it">
         <Head>

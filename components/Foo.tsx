@@ -1,2 +1,4 @@
-const Foo: React.FC = () => <div>BAR</div>
+function Foo() {
+  return <div>BAR</div>
+}
 export default Foo

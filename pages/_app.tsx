@@ -2,7 +2,7 @@ import { AppProps } from 'next/app'
 import { Provider } from 'react-redux'
 import { store } from '../redux/store'
 
-const App: React.FC<AppProps> = ({ Component, pageProps }) => {
+function App({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
       <Component {...pageProps} />

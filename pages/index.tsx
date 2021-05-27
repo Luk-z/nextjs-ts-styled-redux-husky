@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { GetStaticProps } from 'next'
 import { getHomePage } from '../services/test'
 
 const Title = styled.h1`
@@ -10,7 +9,7 @@ type Props = {
   payload: { [key: string]: string }
 }
 
-const Home: React.FC<Props> = ({ payload }) => {
+function Home({ payload }: Props) {
   return (
     <div>
       <Title>{JSON.stringify(payload)}</Title>
@@ -21,7 +20,7 @@ const Home: React.FC<Props> = ({ payload }) => {
 // This function gets called at build time on server-side.
 // It may be called again, on a serverless function, if
 // revalidation is enabled and a new request comes in
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps = async () => {
   const payload = await getHomePage()
 
   return {
