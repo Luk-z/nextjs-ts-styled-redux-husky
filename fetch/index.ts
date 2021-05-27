@@ -1,1 +1,2 @@
-export default fetch
+const fetchUrl = fetch
+export default fetchUrl
