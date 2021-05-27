@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-Thin.otf')
+    format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-ExtraLight.otf')
+    format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-Light.otf')
+    format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-Regular.otf')
+    format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-Medium.otf')
+    format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-DemiBold.otf')
+    format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-Bold.otf')
+    format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-ExtraBold.otf')
+    format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT-Interphases';
+  src: url('/assets/fonts/TT-Interphases/TT-Interphases-Black.otf')
+    format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Extra-Light.otf')
+    format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Regular.otf')
+    format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Medium.otf')
+    format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Demi-Bold.otf')
+    format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Extra-Bold.otf')
+    format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Criteria-CF';
+  src: url('/assets/fonts/Criteria-CF/Criteria-CF-Super.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
